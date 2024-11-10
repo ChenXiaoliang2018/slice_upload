@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="upload-wrapper">
+
+        <div>
+            <p>
+                <progress value="0" id="upload-progress"></progress>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <input type="file"  id="upload-input" name="avatar">
+                <button id="upload-button">上传</button>
+            </p>
+        </div>
+
+        <div>
+            <p id="upload-info"></p>
+        </div>
+
+        <div><video src="" alt="" id="upload-review" style="width: 500px;"></div>
+
+    </div>
+    <script type="module" src="./app.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.7.2/axios.min.js"></script>
+</body>
+
+</html>
